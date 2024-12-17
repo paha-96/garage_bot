@@ -1,0 +1,10 @@
+{
+  "name": "PHP Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/php:8.1",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:1": {},
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "postCreateCommand": "composer install",
+  "forwardPorts": [8000]
+}
